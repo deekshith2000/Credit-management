@@ -1,0 +1,110 @@
+.touser{
+	background-color: lightgreen;
+	width: 200px;
+  height: 30px;
+
+
+
+}
+.touser:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+.btndanger{
+  display: inline-block;
+	border-radius: 4px;
+	margin: 10px;
+	height: 35px;
+	background-color: red;
+	font-size: 20px;
+
+
+}
+.btndanger1{
+  display: inline-block;
+  border-radius: 4px;
+  width: 120px;
+  height: 30px;
+  background-color: darkblue;
+  font-size: 20px;
+  background-color: lightgreen;
+
+}
+
+
+.etbutton {
+    display: inline-block;
+    margin: 5px;
+    background: #b06f97;
+    color: #333;
+    font-size: 1.5em;
+    font-family: ‘Georgia’, serif;
+    font-style: italic;
+    border-radius: 50px;
+    padding: 8px 16px; 
+}  
+select {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;       /* Remove default arrow */
+   background-image: url(...);
+   background-color: lightgreen;
+   width: 150px;
+   height: 25px;  /* Add custom arrow */
+}
+.image{
+    width: 70px;
+    height: 90px;
+    padding-top: 5px;
+    padding-bottom: 16px;
+    padding-right: 10px;
+  }
+  .logo{
+    width: 350px;
+    height: 350px;
+    padding-top: 50px;
+  }
+#myTable{
+  margin: 40px; 
+  margin-left: 30%;
+}
+.myform{
+  width:30%;
+  text-align: center;
+}
+table{
+  width: 800px;
+}
+
+
+@media screen and (max-width: 800px){
+  #myTable{
+    width: 100%;
+    position: relative;
+    margin-left: 10%;
+    text-align: center;
+  }
+ .select1{
+  width: 80%;
+ }
+
+
+ 
+}
+@media screen and (max-width: 500px){
+  #myTable{
+    width: 100%;
+    position: relative;
+  }
+  .logo{
+    width:100%;
+  }
+
+}
