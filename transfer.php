@@ -25,7 +25,7 @@
 			else if($amt > $newamt[0]){
 				echo "<script>alert('You have insufficient money'); window.location.href='members.php';</script>";
 			}
-			else if($amt < $newamt[0]) {
+			else if($amt < =$newamt[0]) {
 				$sqlupdate="UPDATE members set amount=amount-'$amt' WHERE email='$email1'";
 				$res=mysqli_query($con,$sqlupdate); 
 				$sqlupdate1="UPDATE members set amount=amount+'$amt' WHERE email='$email2'";
